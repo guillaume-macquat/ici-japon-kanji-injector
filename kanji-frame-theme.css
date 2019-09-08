@@ -1,0 +1,48 @@
+html, body {
+  width: 100% !important;
+  margin: 0 !important;
+}
+
+body {
+  background-color: #EEE !important;
+  overflow: hidden;
+}
+
+table {
+  height: auto !important;
+  width: 100% !important;
+  margin: auto !important;
+  padding: 10px;
+}
+
+table, td {
+  background: none;
+  border: none;
+}
+
+img {
+  margin-bottom: 8px;
+}
+
+font {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+td p:first-child,
+td p:first-child font {
+  font-size: 16px;
+  color: #954F35;
+}
+
+font[size="+1"] {
+  display: inline-block;
+  margin-left: -7px;
+}
+
+p[align=left] {
+  margin-top: -5px;
+}
+
+p[align=left] br:last-child {
+  display: none;
+}

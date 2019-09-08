@@ -1,0 +1,22 @@
+{
+  "name": "injecteur kanji pour Ici-Japon",
+  "version": "1.0",
+  "manifest_version": 2,
+  "icons": {
+    "16": "icon-16px.png",
+    "48": "icon-48px.png",
+    "128": "icon-128px.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.ici-japon.com/apprendre-le-japonais/cours-de-japonais-*"],
+      "js": ["index.js"],
+      "css": ["lesson-theme.css"]
+    },
+    {
+      "matches": ["*://*.ici-japon.com/cours_japonais/kanji/*"],
+      "all_frames": true,
+      "css": ["kanji-frame-theme.css"]
+    }
+  ]
+}

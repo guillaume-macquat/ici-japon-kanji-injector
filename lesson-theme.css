@@ -1,0 +1,36 @@
+.kanji-list-toggler {
+  margin-top: 14px;
+  font-size: 16px;
+}
+
+.kanji-list {
+  margin-top: 18px;
+  column-count: 2;
+  column-width: 50%;
+  line-height: 0em;
+}
+
+.kanji-list li {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 18px;
+  padding: 0;
+  border: 1px solid #DDD;
+}
+
+.kanji-list .clear-fix {
+  display: block;
+  clear: both;
+  height: 0;
+}
+
+.kanji-list object {
+  width: 100%;
+}
+
+@media screen and (max-width: 990px) {
+  .kanji-list {
+    column-count: 1;
+    column-width: 100%;
+  }
+}
