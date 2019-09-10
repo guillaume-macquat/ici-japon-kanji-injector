@@ -1,6 +1,6 @@
 {
   "name": "injecteur kanji pour Ici-Japon",
-  "version": "1.0",
+  "version": "1.1",
   "manifest_version": 2,
   "description": "Intègre les fiches complètes des kanjis directement dans les leçons d'Ici-Japon.",
   "icons": {
