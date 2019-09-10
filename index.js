@@ -83,15 +83,11 @@ function makeElement(type, attributes = {}, configure = () => {}) {
 }
 
 function softHide(element) {
-  element.style.opacity = 0
-  element.style.position = 'absolute'
-  element.style.pointerEvents = 'none'
+  element.classList.add('soft-hidden')
 }
 
 function unsoftHide(element) {
-  element.style.opacity = 100
-  element.style.position = 'initial'
-  element.style.pointerEvents = 'auto'
+  element.classList.remove('soft-hidden')
 }
 
 function onDocumentReady(callback) {

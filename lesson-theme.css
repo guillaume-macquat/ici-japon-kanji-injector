@@ -34,3 +34,8 @@
     column-width: 100%;
   }
 }
+
+.soft-hidden {
+  position: absolute;
+  visibility: hidden;
+}
